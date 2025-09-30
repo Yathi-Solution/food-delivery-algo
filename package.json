@@ -1,0 +1,22 @@
+{
+  "name": "delivery-app",
+  "version": "1.0.0",
+  "description": "Food delivery orchestrator system",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsx main.ts",
+    "demo": "tsx demo.ts"
+  },
+  "keywords": ["delivery", "food", "orchestrator", "routing"],
+  "author": "Dev Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  },
+  "dependencies": {}
+}
